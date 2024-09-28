@@ -1,0 +1,19 @@
+{
+	"list": [
+		{
+			"name": "ArtDigital",
+			"url": "https://github.com/danielmrcl/art-digital",
+			"desc": "ArtDigital is an e-commerce that aims to simplify the dissemination and sale of products in the craft sector. #JavaEE #JSP #WebServlets"
+		},
+		{
+			"name": "Meeting Rooms",
+			"url": "https://github.com/danielmrcl/meeting-rooms",
+			"desc": "SPA written in Angular to manage meeting rooms access. #Angular #SpringBoot"
+		},
+		{
+			"name": "EncURL",
+			"url": "https://gitlab.com/danielmrcl/encurl-web",
+			"desc": "Link shortener with some extra features. #VueJS #CSharp"
+		}
+	]
+}

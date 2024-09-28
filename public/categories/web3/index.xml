@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web3 on Daniel Jr | Backend Developer</title>
+    <link>http://localhost:1313/categories/web3/</link>
+    <description>Recent content in Web3 on Daniel Jr | Backend Developer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Me</copyright>
+    <lastBuildDate>Fri, 10 Nov 2023 12:21:32 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/web3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blockchain Basics</title>
+      <link>http://localhost:1313/posts/2023-11-10-solidity-web3-js/</link>
+      <pubDate>Fri, 10 Nov 2023 12:21:32 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2023-11-10-solidity-web3-js/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/smartcontractkit/full-blockchain-solidity-course-js&#34;&gt;From Here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Smart contracts are an agreement, contract or set of instructions that executes in a decentralized way without the need for a centralized or third party intermediary.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Blockchain Oracle&lt;/strong&gt;: Any device that interacts with the off-chain world to provide external data or computation to smart contracts.&#xA;&lt;strong&gt;Hybrid Smart Contracts&lt;/strong&gt;: On-Chain + Off-Chain Agreements.&lt;/p&gt;&#xA;&lt;p&gt;Smart Contracts do trust minimized agreements that cannot be broke.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Cannot be altered (immutable)&lt;/li&gt;&#xA;&lt;li&gt;Automatically executes&lt;/li&gt;&#xA;&lt;li&gt;Everyone sees the terms of agreement&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;UNBREAKABLE AGREEMENTS&#xA;and much more.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

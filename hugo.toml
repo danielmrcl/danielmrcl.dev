@@ -1,3 +1,72 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://danielmrcl.dev"
+languageCode = "en-us"
+title = "Daniel Jr | Backend Developer"
+theme = "cactus"
+copyright = "Me"
+
+# summaryLength = 2
+
+# Main menu which appears below site header.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Writings"
+url = "/posts"
+weight = 2
+#
+#[[menu.main]]
+#name = "Tags"
+#url = "/tags"
+#weight = 3
+
+#[[menu.main]]
+#name = "About"
+#url = "/about"
+#weight = 4
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    style = "gruvbox"
+    tabWidth = 4
+
+[params]
+  colortheme = "dark"
+  rss = false
+  tocInline = true
+  logo = "image.jpg"
+  description = "Since 2021, I've been developing Java 8+ applications using Spring and PostgreSQL in a microservices architecture for critical, efficient and scalable systems. With a focus on code quality, architecture and scalability, I have strong foundation of programming, design and architecture. I am passionate about programming and constantly learn new technologies and paradigms."
+  mainSection = "posts"
+  postsOnHomePage = 5
+  tagsOverview = true
+  showProjectsList = true
+
+  # Post page settings
+  show_updated = true
+  showReadTime = false
+
+  [params.comments]
+    enabled = false
+
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/danielmrcl"
+  [[params.social]]
+    name = "linkedin"
+    link = "https://www.linkedin.com/in/danielmrcl/"
+  [[params.social]]
+    name = "email"
+    link = "dan@danielmrcl.dev"
