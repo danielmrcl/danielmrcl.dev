@@ -1,8 +1,8 @@
 ---
 title: S.O.L.I.D. with examples
 date: 2021-05-08 16:56:54
-categories: kotlin, design-pattern
-keywords: 
+categories: design-pattern
+keywords: kotlin
 ---
 
 ### S)ingle Responsibility Principle
