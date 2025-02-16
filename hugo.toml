@@ -11,7 +11,7 @@ weight = 1
 
 [[menu.main]]
 name = "Writings"
-url = "/posts"
+url = "https://medium.com/@danielmrcl"
 weight = 2
 
 [markup]
@@ -37,8 +37,6 @@ weight = 2
   logo = "image.jpg"
   favicon = "favicon.ico"
   description = "Since 2021, I've been developing Java web services using Spring and PostgreSQL in a microservices architecture for critical, efficient and scalable systems."
-  mainSection = "posts"
-  postsOnHomePage = 5
   tagsOverview = true
   showProjectsList = true
   show_updated = true
