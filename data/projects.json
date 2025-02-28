@@ -1,19 +1,37 @@
 {
 	"list": [
 		{
-			"name": "ArtDigital",
-			"url": "https://github.com/danielmrcl/art-digital",
-			"desc": "ArtDigital is an e-commerce that aims to simplify the dissemination and sale of products in the craft sector. #JavaEE #JSP #WebServlets"
+			"name": "Onnibank",
+			"url": "#",
+			"tags": [
+				{ "name": "current", "color": "#b8bb26" },
+				{ "name": "work", "color": "#fb4934" }
+			],
+			"desc": "HR solution that combines a unified portal for companies to manage payroll and benefits with an integrated app and card for employees. #SpringBook #Quarkus #Kafka"
 		},
 		{
-			"name": "Meeting Rooms",
-			"url": "https://github.com/danielmrcl/meeting-rooms",
-			"desc": "SPA written in Angular to manage meeting rooms access. #Angular #SpringBoot"
+			"name": "Justa",
+			"url": "#",
+			"tags": [
+				{ "name": "work", "color": "#fb4934" }
+			],
+			"desc": "B2B payment solutions fintech that processes over R$1M per month. I worked developing and maintaining the company's systems in a microservices architecture. #PlayFramework #SpringBoot #NestJS"
 		},
 		{
 			"name": "EncURL",
 			"url": "https://gitlab.com/danielmrcl/encurl-web",
+			"tags": [
+				{ "name": "project", "color": "#83a598" }
+			],
 			"desc": "Link shortener with some extra features. #VueJS #CSharp"
+		},
+		{
+			"name": "ArtDigital",
+			"url": "https://github.com/danielmrcl/art-digital",
+			"tags": [
+				{ "name": "project", "color": "#83a598" }
+			],
+			"desc": "ArtDigital is an e-commerce that aims to simplify the dissemination and sale of products in the craft sector. #JavaEE #JSP #WebServlets"
 		}
 	]
 }

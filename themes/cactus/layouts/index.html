@@ -49,11 +49,14 @@
       {{ $projectsUrl = .Site.Params.projectsUrl }}
     {{ end }}
   <section id="projects">
-    <span class="h1"><a href="{{ $projectsUrl }}">Projects</a></span>
+    <span class="h1"><a href="{{ $projectsUrl }}">Experiences</a></span>
     <ul class="project-list">
         {{ range .Site.Data.projects.list }}
         <li class="project-item">
-          <a href="{{ .url }}">{{ .name }}</a>: {{ .desc | markdownify }}
+			{{ range .tags }}
+				<span style="font-size: 10px; color: {{ .color }}; font-weight: bold; background-color: #282828;">{{ .name }}</span>
+			{{ end }}
+			<a href="{{ .url }}">{{ .name }}</a>: {{ .desc | markdownify }}
         </li>
         {{ end }}
     </ul>
