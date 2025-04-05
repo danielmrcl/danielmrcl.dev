@@ -7,7 +7,7 @@
 				{ "name": "current", "color": "#b8bb26" },
 				{ "name": "work", "color": "#fb4934" }
 			],
-			"desc": "HR solution that combines a unified portal for companies to manage payroll and benefits with an integrated app and card for employees. #SpringBook #Quarkus #Kafka"
+			"desc": "HR solution that combines a unified portal for companies to manage payroll and benefits with an integrated app and card for employees. #SpringBoot #Quarkus #Kafka"
 		},
 		{
 			"name": "Justa",
