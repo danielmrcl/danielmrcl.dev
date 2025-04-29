@@ -4,32 +4,31 @@
 			"name": "Onnibank",
 			"url": "https://click.danielmrcl.dev/onnibank-k9Uw",
 			"tags": [
-				{ "name": "current", "color": "#b8bb26" },
-				{ "name": "work", "color": "#fb4934" }
+				{ "name": "job", "color": "#fb4934" }
 			],
 			"desc": "HR solution to manage payroll and benefits for employees. #SpringBoot #Quarkus #Kafka"
-		},
-		{
-			"name": "Justa",
-			"url": "https://click.danielmrcl.dev/justa-Oo7g",
-			"tags": [
-				{ "name": "work", "color": "#fb4934" }
-			],
-			"desc": "B2B payment solutions fintech. #PlayFramework #SpringBoot #NestJS"
 		},
 		{
 			"name": "EncURL",
 			"url": "https://click.danielmrcl.dev/gitlab-2bCe",
 			"tags": [
-				{ "name": "project", "color": "#83a598" }
+				{ "name": "proj", "color": "#83a598" }
 			],
 			"desc": "Link shortener with some extra features. #VueJS #CSharp"
+		},
+		{
+			"name": "Justa",
+			"url": "https://click.danielmrcl.dev/justa-Oo7g",
+			"tags": [
+				{ "name": "job", "color": "#fb4934" }
+			],
+			"desc": "B2B payment solutions fintech. #PlayFramework #SpringBoot #NestJS"
 		},
 		{
 			"name": "ArtDigital",
 			"url": "https://click.danielmrcl.dev/github-4OO7",
 			"tags": [
-				{ "name": "project", "color": "#83a598" }
+				{ "name": "proj", "color": "#83a598" }
 			],
 			"desc": "E-commerce that simplifies sale of products in the handcraft sector. #JavaEE #JSP #WebServlets"
 		}
