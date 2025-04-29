@@ -7,7 +7,7 @@
 				{ "name": "current", "color": "#b8bb26" },
 				{ "name": "work", "color": "#fb4934" }
 			],
-			"desc": "HR solution that combines a unified portal for companies to manage payroll and benefits with an integrated app and card for employees. #SpringBoot #Quarkus #Kafka"
+			"desc": "HR solution to manage payroll and benefits for employees. #SpringBoot #Quarkus #Kafka"
 		},
 		{
 			"name": "Justa",
@@ -15,7 +15,7 @@
 			"tags": [
 				{ "name": "work", "color": "#fb4934" }
 			],
-			"desc": "B2B payment solutions fintech that processes over R$1M per month. I worked developing and maintaining the company's systems in a microservices architecture. #PlayFramework #SpringBoot #NestJS"
+			"desc": "B2B payment solutions fintech. #PlayFramework #SpringBoot #NestJS"
 		},
 		{
 			"name": "EncURL",
@@ -31,7 +31,7 @@
 			"tags": [
 				{ "name": "project", "color": "#83a598" }
 			],
-			"desc": "ArtDigital is an e-commerce that aims to simplify the dissemination and sale of products in the craft sector. #JavaEE #JSP #WebServlets"
+			"desc": "E-commerce that simplifies sale of products in the handcraft sector. #JavaEE #JSP #WebServlets"
 		}
 	]
 }
