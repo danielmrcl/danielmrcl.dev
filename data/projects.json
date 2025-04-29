@@ -2,7 +2,7 @@
 	"list": [
 		{
 			"name": "Onnibank",
-			"url": "#",
+			"url": "https://click.danielmrcl.dev/onnibank-k9Uw",
 			"tags": [
 				{ "name": "current", "color": "#b8bb26" },
 				{ "name": "work", "color": "#fb4934" }
@@ -11,7 +11,7 @@
 		},
 		{
 			"name": "Justa",
-			"url": "#",
+			"url": "https://click.danielmrcl.dev/justa-Oo7g",
 			"tags": [
 				{ "name": "work", "color": "#fb4934" }
 			],
@@ -19,7 +19,7 @@
 		},
 		{
 			"name": "EncURL",
-			"url": "https://gitlab.com/danielmrcl/encurl-web",
+			"url": "https://click.danielmrcl.dev/gitlab-2bCe",
 			"tags": [
 				{ "name": "project", "color": "#83a598" }
 			],
@@ -27,7 +27,7 @@
 		},
 		{
 			"name": "ArtDigital",
-			"url": "https://github.com/danielmrcl/art-digital",
+			"url": "https://click.danielmrcl.dev/github-4OO7",
 			"tags": [
 				{ "name": "project", "color": "#83a598" }
 			],
