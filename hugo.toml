@@ -28,11 +28,9 @@ tabWidth = 4
 colortheme = "dark"
 rss = false
 tocInline = true
-logo = "image.jpg"
 favicon = "favicon.ico"
 description = "Since 2021 I have been developing web services in microservice architecture for critical, efficient, and scalable systems. I also love Linux, cloud, cli-tools, hardware, and all about computers."
 tagsOverview = true
-showProjectsList = true
 show_updated = true
 showReadTime = false
 
