@@ -37,29 +37,30 @@
   {{ partial "optional-about.html" . }}
   </section>
 
-  {{ $showProjectsList := false }}
-  {{ if (isset .Site.Params "showprojectslist") }}
-    {{ $showProjectsList = .Site.Params.showProjectsList }}
-  {{ else if .Site.Data.projects }}
-    {{ $showProjectsList = true }}
-  {{ end }}
-  {{ if $showProjectsList }}
-    {{ $projectsUrl := "#" }}
-    {{ if isset .Site.Params "projectsurl" }}
-      {{ $projectsUrl = .Site.Params.projectsUrl }}
-    {{ end }}
   <section id="projects">
-    <span class="h1"><a href="{{ $projectsUrl }}">Career</a></span>
+    <span class="h2">Projects</span>
     <ul class="project-list">
         {{ range .Site.Data.projects.list }}
         <li class="project-item">
-			{{ range .tags }}
-				<span style="font-size: 10px; color: {{ .color }}; font-weight: bold; background-color: #282828;">{{ .name }}</span>
-			{{ end }}
 			<a href="{{ .url }}">{{ .name }}</a>: {{ .desc | markdownify }}
+			{{ range .tags }}
+			<span style="font-size: 10px; color: {{ .color }}; font-weight: bold; background-color: #282828;">{{ .name }}</span>
+			{{ end }}
         </li>
         {{ end }}
     </ul>
   </section>
-  {{ end }}
+  <section id="career">
+    <span class="h2">Career</span>
+    <ul class="career-list">
+        {{ range .Site.Data.career.list }}
+        <li class="career-item">
+			<a href="{{ .url }}">{{ .name }}</a>: {{ .desc | markdownify }}
+			{{ range .tags }}
+			<span style="font-size: 10px; color: {{ .color }}; font-weight: bold; background-color: #282828;">{{ .name }}</span>
+			{{ end }}
+        </li>
+        {{ end }}
+    </ul>
+  </section>
 {{ end }}

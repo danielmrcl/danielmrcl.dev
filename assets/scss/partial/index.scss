@@ -38,3 +38,14 @@
     }
   }
 }
+.career-list {
+  padding: 0;
+  list-style: none;
+
+  .career-item {
+    margin-bottom: 5px;
+    p {
+      display: inline;
+    }
+  }
+}
