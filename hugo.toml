@@ -39,13 +39,13 @@ enabled = false
 
 [[params.social]]
 name = "email"
-link = "https://click.danielmrcl.dev/danielmrcl-d6aC"
+link = "https://click.danielmrcl.dev/email_me"
 [[params.social]]
 name = "linkedin"
-link = "https://click.danielmrcl.dev/linkedin-cmMJ"
+link = "https://click.danielmrcl.dev/linkedin"
 [[params.social]]
 name = "github"
-link = "https://click.danielmrcl.dev/github-eeW7"
+link = "https://click.danielmrcl.dev/github"
 [[params.social]]
 name = "medium"
-link = "https://click.danielmrcl.dev/medium-qz5w"
+link = "https://click.danielmrcl.dev/medium"
