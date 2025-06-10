@@ -46,5 +46,8 @@ link = "https://click.danielmrcl.dev/linkedin"
 name = "github"
 link = "https://click.danielmrcl.dev/github"
 [[params.social]]
+name = "gitlab"
+link = "https://click.danielmrcl.dev/gitlab"
+[[params.social]]
 name = "medium"
 link = "https://click.danielmrcl.dev/medium"
