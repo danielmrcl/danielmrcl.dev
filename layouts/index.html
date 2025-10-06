@@ -44,7 +44,7 @@
         <li class="project-item">
 			<a href="{{ .url }}">{{ .name }}</a>: {{ .desc | markdownify }}
 			{{ range .tags }}
-			<span style="font-size: 10px; color: {{ .color }}; font-weight: bold; background-color: #282828;">{{ .name }}</span>
+			<span style="font-size: 10px; color: {{ .color }}; font-weight: bold;">{{ .name }}</span>
 			{{ end }}
         </li>
         {{ end }}
@@ -57,7 +57,7 @@
         <li class="career-item">
 			<a href="{{ .url }}">{{ .name }}</a>: {{ .desc | markdownify }}
 			{{ range .tags }}
-			<span style="font-size: 10px; color: {{ .color }}; font-weight: bold; background-color: #282828;">{{ .name }}</span>
+			<span style="font-size: 10px; color: {{ .color }}; font-weight: bold;">{{ .name }}</span>
 			{{ end }}
         </li>
         {{ end }}
