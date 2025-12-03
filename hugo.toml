@@ -27,7 +27,7 @@ tabWidth = 4
 [params]
 rss = false
 tocInline = true
-description = "Since 2021 I have been developing web services in microservice architecture for critical, efficient, and scalable systems. I also love Linux, cloud, cli-tools, hardware, and all about computers."
+description = "Since 2020 I have been developing web services in microservice architecture for critical, efficient, and scalable systems. I also love Linux, cloud, cli-tools, hardware, and all about computers."
 tagsOverview = true
 show_updated = true
 showReadTime = false
