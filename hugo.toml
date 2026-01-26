@@ -1,6 +1,6 @@
 baseURL = "https://danielmrcl.dev"
 languageCode = "en-us"
-title = "Daniel Marcelo | Software Engineer"
+title = "Daniel Marcelo"
 copyright = "Me"
 
 [[menu.main]]
@@ -27,7 +27,7 @@ tabWidth = 4
 [params]
 rss = false
 tocInline = true
-description = "Since 2020 I have been developing web services in microservice architecture for critical, efficient, and scalable systems. I also love Linux, cloud, cli-tools, hardware, and all about computers."
+description = "Software Engineer | Back End Developer | Java 8+ | Microservices"
 tagsOverview = true
 show_updated = true
 showReadTime = false

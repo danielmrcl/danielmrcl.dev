@@ -1,8 +1,9 @@
 {{ define "main" }}
   <section id="about">
   {{ if isset .Site.Params "description" }}
-    {{ .Site.Params.description | $.Page.RenderString }}
+    {{ .Site.Params.description | $.Page.RenderString }}<br>
   {{ end }}
+  Worked at Justa and Onnibank.
   {{ if isset .Site.Params "social" }}
       <p>Find me on
       {{ $length := (len .Site.Params.social) }}
@@ -37,7 +38,8 @@
   {{ partial "optional-about.html" . }}
   </section>
 
-  <section id="projects">
+  <img src="./images/spongebob-patrick.gif">
+  <!--<section id="projects">
     <span class="h2">Projects</span>
     <ul class="project-list">
         {{ range .Site.Data.projects.list }}
@@ -49,8 +51,8 @@
         </li>
         {{ end }}
     </ul>
-  </section>
-  <section id="career">
+  </section>-->
+  <!--<section id="career">
     <span class="h2">Career</span>
     <ul class="career-list">
         {{ range .Site.Data.career.list }}
@@ -62,5 +64,5 @@
         </li>
         {{ end }}
     </ul>
-  </section>
+  </section>-->
 {{ end }}
