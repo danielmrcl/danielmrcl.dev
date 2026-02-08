@@ -31,13 +31,14 @@ description = "Software Engineer | Back End Developer | Java 8+ | Microservices"
 tagsOverview = true
 show_updated = true
 showReadTime = false
+pubkey = "https://danielmrcl.dev/pub.key"
 
 [params.comments]
 enabled = false
 
 [[params.social]]
 name = "email"
-link = "https://click.danielmrcl.dev/email_me"
+link = "mailto:dan@danielmrcl.dev"
 [[params.social]]
 name = "linkedin"
 link = "https://click.danielmrcl.dev/linkedin"
