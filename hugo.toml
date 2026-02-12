@@ -31,7 +31,7 @@ description = "Software Engineer | Back End Developer | Java 8+ | Microservices"
 tagsOverview = true
 show_updated = true
 showReadTime = false
-pubkey = "https://danielmrcl.dev/pub.key"
+pubkey = "https://danielmrcl.dev/gpg.asc"
 
 [params.comments]
 enabled = false
