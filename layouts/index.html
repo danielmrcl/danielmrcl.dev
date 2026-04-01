@@ -3,10 +3,7 @@
   {{ if isset .Site.Params "description" }}
     {{ .Site.Params.description | $.Page.RenderString }}<br>
   {{ end }}
-  Worked at Justa and Onnibank.<br>
-  {{ if isset .Site.Params "pubkey"}}
-	pubkey: <a href={{ .Site.Params.pubkey }}>{{ .Site.Params.pubkey }}</a>
-  {{ end }}
+  Worked at <a href="https://justa.com.vc">Justa</a> and <a href="https://onnibank.com.br">Onnibank</a>.<br>
   {{ if isset .Site.Params "social" }}
       <p>Find me on
       {{ $length := (len .Site.Params.social) }}
@@ -39,9 +36,11 @@
       </p>
   {{ end }}
   {{ partial "optional-about.html" . }}
+  {{ if isset .Site.Params "pubkey"}}
+	pubkey: <a href={{ .Site.Params.pubkey }}>{{ .Site.Params.pubkey }}</a>
+  {{ end }}
   </section>
 
-  <img src="./images/spongebob-patrick.gif">
   <!--<section id="projects">
     <span class="h2">Projects</span>
     <ul class="project-list">
