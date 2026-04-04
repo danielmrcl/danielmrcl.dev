@@ -38,6 +38,9 @@
   {{ partial "optional-about.html" . }}
   {{ if isset .Site.Params "pubkey"}}
 	pubkey: <a href={{ .Site.Params.pubkey }}>{{ .Site.Params.pubkey }}</a>
+  {{ end }}<br>
+  {{ if isset .Site.Params "bitcoin"}}
+	bitcoin: <a href="bitcoin:{{ .Site.Params.bitcoin }}">{{ .Site.Params.bitcoin }}</a>
   {{ end }}
   </section>
 
