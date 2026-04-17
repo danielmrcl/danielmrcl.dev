@@ -33,6 +33,7 @@ show_updated = true
 showReadTime = false
 pubkey = "https://danielmrcl.dev/gpg.asc"
 bitcoin = "bc1qmu7ulnq7uyc474jwcupf9y5jx7t0r63hr73tww"
+mastodon = "https://mastodon.social/@danielmrcl"
 
 [params.comments]
 enabled = false
