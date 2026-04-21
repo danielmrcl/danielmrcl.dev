@@ -33,7 +33,7 @@ show_updated = true
 showReadTime = false
 pubkey = "https://danielmrcl.dev/gpg.asc"
 bitcoin = "bc1qmu7ulnq7uyc474jwcupf9y5jx7t0r63hr73tww"
-mastodon = "https://mastodon.social/@danielmrcl"
+mastodon = "https://mastodon.social/@danielmrcl" # TODO check if can be removed
 
 [params.comments]
 enabled = false
@@ -50,3 +50,6 @@ link = "https://click.danielmrcl.dev/github"
 [[params.social]]
 name = "gitlab"
 link = "https://click.danielmrcl.dev/gitlab"
+[[params.social]]
+name = "mastodon"
+link = "https://mastodon.social/@danielmrcl"
