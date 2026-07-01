@@ -43,13 +43,13 @@ name = "email"
 link = "mailto:dan@danielmrcl.dev"
 [[params.social]]
 name = "linkedin"
-link = "https://click.danielmrcl.dev/linkedin"
+link = "https://www.linkedin.com/in/danielmrcl"
 [[params.social]]
 name = "github"
-link = "https://click.danielmrcl.dev/github"
+link = "https://github.com/danielmrcl"
 [[params.social]]
 name = "gitlab"
-link = "https://click.danielmrcl.dev/gitlab"
+link = "https://gitlab.com/danielmrcl"
 [[params.social]]
 name = "mastodon"
 link = "https://mastodon.social/@danielmrcl"
